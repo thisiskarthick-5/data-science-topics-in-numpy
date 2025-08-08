@@ -1,0 +1,52 @@
+1. NumPy Arrays Basics
+Creating arrays (np.array, np.zeros, np.ones, np.arange, np.linspace)
+
+Array attributes: .shape, .dtype, .size, .ndim
+
+Indexing and slicing (1D, 2D, ND arrays)
+
+Boolean indexing (filtering arrays)
+
+2. Array Operations
+Element-wise operations (+, -, *, /, **)
+
+Universal functions (ufuncs) like np.sqrt(), np.exp(), np.sin(), np.log()
+
+Aggregation functions: np.sum(), np.mean(), np.median(), np.min(), np.max(), np.std(), np.var()
+
+Axis argument in aggregation functions (e.g., sum over rows vs columns)
+
+3. Shape Manipulation
+Reshaping arrays (.reshape())
+
+Flattening arrays (.ravel(), .flatten())
+
+Transpose (.T)
+
+Concatenation and stacking (np.concatenate(), np.vstack(), np.hstack())
+
+4. Broadcasting
+How NumPy handles operations on arrays of different shapes
+
+Rules of broadcasting (very important for vectorized code efficiency)
+
+5. Random Number Generation
+Generating random data with np.random module
+
+Creating random samples, normal distribution, uniform distribution, permutations
+
+6. Performance Tips
+Why vectorized operations are faster than loops
+
+Avoiding Python loops by using NumPy’s built-in functions
+
+7. Reading and Writing Data
+Loading data from text files (np.loadtxt(), np.genfromtxt())
+
+Saving arrays (np.save(), np.savez())
+
+Bonus for Data Science:
+Using NumPy alongside pandas (e.g., converting between pandas DataFrames and NumPy arrays)
+
+Working with missing data (using masked arrays or np.nan handling)
+
